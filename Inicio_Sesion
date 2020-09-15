@@ -20,13 +20,13 @@
             <div class= "text">
             <p><br>
                 Si no tiene cuenta
-            <a href="#">Registrese aquí </a> 
+            <a href="Registro.php">Registrese aquí </a> 
             </p>   
             <p>
                <br>
             </p>
             
-                <a href="#"  >Entre como administrador</a> 
+                <a href="Inicio_Administrador.php"  >Entre como administrador</a> 
             </div>
             </form>
         
