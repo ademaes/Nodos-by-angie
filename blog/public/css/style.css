@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: pink;
+    background-size: cover;
+    background-position: center;
+    font-family: Poppins;
+}
+.logo{
+    position: fixed;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 30px;
+    font-family: Poppins;
+    text-decoration: wavy;
+}
+.di a{
+    position: absolute;
+    background-color: rgba(19, 206, 102, 0);
+    border: 5px solid #8492A6;
+    width: 181px;
+    height: 25px;
+    left:42.5%;
+    top:20%;
+    color: #6e7785;
+    text-align: center;
+    font-weight: bolder;
+    
+     
+  }
+.titulo{
+    font-family: Poppins;
+    color:black;
+    text-align: center;
+    padding: 5px 30px;
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+  }
+#subtamaño{
+    font-family: Poppins;
+    color:grey;
+    text-align: center;
+    top:15%;
+    left:37%;
+    position: fixed;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-box{
+    width: 500px;
+    height: 400px;
+    background: white;
+    color: gray;
+    top: 50%;
+    position: absolute;
+    left: 110px;
+    box-sizing: border-box;
+    padding: 40px 30px;
+    border-radius: 30px;
+}
+
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.text{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 17px;
+}
+.login-box p{
+    margin: auto;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"], input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #570a43;
+    color: rgb(252, 249, 249);
+}
+.portfolio{
+    position: absolute;
+    width: 1091px;
+    height: 588px;
+    display: block;
+    top: 30%;
+    left: 13%;
+
+    
+}
+#flecha{
+    position: absolute;
+    
+}
+#boxpequeña a{
+    position: absolute;
+    text-align: center;
+    width: 346px;
+    height: 270px;
+    left:125px;
+    top: 270px;
+    padding: 100px 0px;
+    border-radius: 42px;
+    background: #88B1DE;
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+
+}
+#boxmediana a{
+    position: absolute;
+    text-align: center;
+    width: 346px;
+    height: 270px;
+    left:590px;
+    top: 270px;
+    padding: 100px 0px;
+    border-radius: 42px;
+    background: #88B1DE;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+
+}
+#boxgrande a{
+    position: absolute;
+    text-align: center;
+    width: 346px;
+    height: 270px;
+    left:1100px;
+    top: 270px;
+    padding: 80px 0px;
+    border-radius: 42px;
+    background: #88B1DE;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+
+}
+
+#chiquita1{
+    width: 847px;
+    height: 97px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+#chiquita2{
+    width: 847px;
+    height: 97px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+#chiquita3{
+    width: 847px;
+    height: 97px;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+
+#grande1{
+    width: 919px;
+    height: 139px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+#grande2{
+    width: 919px;
+    height: 139px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+#grande3{
+    width: 919px;
+    height: 139px;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}De una
