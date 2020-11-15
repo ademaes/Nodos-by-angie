@@ -12,9 +12,9 @@
     <div class="titulo">
     Elige el diseño de tu manilla mediana
     </div>
-    <img src="{{ asset('img/mediana1.png') }}" id="chiquita1">
-    <img src="{{ asset('img/mediana2.png') }}" id="chiquita2">
-    <img src="{{ asset('img/mediana3.png') }}" id="chiquita3">
+    <a href="tamano"><img src="{{ asset('img/mediana1.png') }}" id="chiquita1" title="Opcion 1" alt="Flower"></a>
+    <a href="tamano"><img src="{{ asset('img/mediana2.png') }}" id="chiquita2" title="Opcion 1" alt="Flower"></a>
+    <a href="tamano"><img src="{{ asset('img/mediana3.png') }}" id="chiquita3" title="Opcion 1" alt="Flower"></a>
    
 </body>
 @endsection

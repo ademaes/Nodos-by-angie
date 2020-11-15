@@ -16,19 +16,8 @@ body{
     font-family: Poppins;
     text-decoration: wavy;
 }
-.di a{
-    position: absolute;
-    background-color: rgba(19, 206, 102, 0);
-    border: 5px solid #8492A6;
-    width: 181px;
-    height: 25px;
-    left:42.5%;
-    top:20%;
-    color: #6e7785;
-    text-align: center;
-    font-weight: bolder;
-    
-     
+.di{   
+    text-align: center;    
   }
 .titulo{
     font-family: Poppins;
@@ -94,31 +83,15 @@ h1{
     height: 40px;
     font-size: 16px;
 }
-.login-box input[type="submit"]
-{
-    border: none;
-    outline: none;
-    height: 40px;
-    background: #1c8adb;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 20px;
-}
-.login-box input[type="submit"]:hover
-{
-    cursor: pointer;
-    background: #570a43;
-    color: rgb(252, 249, 249);
-}
+
+
 .portfolio{
-    position: absolute;
     width: 1091px;
     height: 588px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    top: 30%;
-    left: 13%;
-
-    
+    top: 200px;
 }
 #flecha{
     position: absolute;
@@ -215,4 +188,18 @@ h1{
     position: absolute;
     top: 60%;
     left: 20%;
-}De una
+}
+
+.main-nav {
+    position: relative;
+}
+
+.dropdown-menu {
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
+
+.main-nav:hover .dropdown-menu {
+    display: block;
+}

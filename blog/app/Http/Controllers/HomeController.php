@@ -1,8 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
+use App\Manilla;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -23,7 +25,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('HomeAde');
     }
 
     public function prueba(){
@@ -35,7 +37,13 @@ class HomeController extends Controller
     }
 
     public function chiquita(){
-        return view('pequeno');
+        $id = Auth::id();
+        $tamano = "chiquita";
+        $manilla = [];
+        $manilla["dueno"] = $id;
+        $manilla["tamano"] = $tamano;
+        $mani = Manilla::create($manilla)->id;
+        return view('pequeno',compact('mani'));
     }
 
     public function mediana(){
@@ -44,5 +52,8 @@ class HomeController extends Controller
 
     public function grande(){
         return view('grande');
+    }
+    public function tresColores(){
+        return view('tresColores');
     }
 }

@@ -14,14 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/HomeAde', 'HomeController@prueba')->name('Wenas');
+Route::get('/HomeAde', 'HomeController@index')->name('Wenas');
 
 Route::get('/tamano', 'HomeController@tamanos')->name('la buena');
 
@@ -30,3 +30,5 @@ Route::get('/pequeno', 'HomeController@chiquita')->name('la rebuena');
 Route::get('/mediana', 'HomeController@mediana')->name('la recontrabuena');
 
 Route::get('/grande', 'HomeController@grande')->name('la megabuena');
+
+Route::get('/3Colores', 'HomeController@tresColores')->name('la remegabuena');
