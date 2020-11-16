@@ -37,23 +37,18 @@ class HomeController extends Controller
     }
 
     public function chiquita(){
-        $id = Auth::id();
-        $tamano = "chiquita";
-        $manilla = [];
-        $manilla["dueno"] = $id;
-        $manilla["tamano"] = $tamano;
-        $mani = Manilla::create($manilla)->id;
-        return view('pequeno',compact('mani'));
+        session(['tamano'=>'chiquita']);
+        return view('pequeno');
     }
 
     public function mediana(){
-        return view('mediana');
+        session(['tamano'=>'mediana']);
+        return view('mediana',compact('manilla'));
     }
 
     public function grande(){
-        return view('grande');
+        session(['tamano'=>'grande']);
+        return view('grande',compact('manilla'));
     }
-    public function tresColores(){
-        return view('tresColores');
-    }
+    
 }

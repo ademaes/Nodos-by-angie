@@ -22,7 +22,8 @@
 </head>
 
 <body style="background-color: #FFEEEE;">
-
+    <div class="titulo">
+    </div>
     <div class="titulo">
         Elige el diseño de tu manilla mediana
     </div>
@@ -31,30 +32,32 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-
-
                     <div class="card-body">
-
                         <div class="row">
-                            <form class="col s12">
+                            <form class="col s12" method="POST" action="{{route('colorSave')}}">
                                 @csrf
                                 <div class="row">
                                     <div class="input-field col s6">
-                                        <input id="color_1" type="text" class="validate">
-                                        <label for="first_name">Color 1</label>
+                                        <textarea id="textarea1" name="color1" class="materialize-textarea"></textarea>
+                                        <label for="textarea1">Color 1</label>
                                     </div>
                                     <div class="input-field col s6">
-                                        <input id="color_2" type="text" class="validate">
-                                        <label for="last_name">Color 2</label>
+                                        <textarea id="textarea2" name="color2" class="materialize-textarea"></textarea>
+                                        <label for="textarea2">Color 2</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <textarea id="textarea3" name="color3" class="materialize-textarea"></textarea>
+                                        <label for="textarea3">Color 3</label>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="input-field col s12">
-                                        <textarea id="textarea1" class="materialize-textarea"></textarea>
-                                        <label for="textarea1">Nota</label>
+                                        <textarea id="textarea4" name="nota" class="materialize-textarea"></textarea>
+                                        <label for="textarea4">Nota</label>
                                     </div>
                                 </div>
-                                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                                <button type="submit" class="btn btn-primary">
+                                    {{ __('Agregar') }}
                                 </button>
                             </form>
                         </div>

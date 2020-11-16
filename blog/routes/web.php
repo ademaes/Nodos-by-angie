@@ -31,4 +31,6 @@ Route::get('/mediana', 'HomeController@mediana')->name('la recontrabuena');
 
 Route::get('/grande', 'HomeController@grande')->name('la megabuena');
 
-Route::get('/3Colores', 'HomeController@tresColores')->name('la remegabuena');
+Route::get('/chiquitaEstilo2', 'DisenoController@chiquitaEstilo2')->name('la remegabuena');
+
+Route::post('/colorSave', 'ManillaController@save3Colores')->name('colorSave');
