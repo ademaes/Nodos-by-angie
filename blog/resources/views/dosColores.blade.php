@@ -34,7 +34,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="row">
-                            <form class="col s12" method="POST" action="{{route('color3Save')}}">
+                            <form class="col s12" method="POST" action="{{route('color2Save')}}">
                                 @csrf
                                 <div class="row">
                                     <div class="input-field col s6">
@@ -44,10 +44,6 @@
                                     <div class="input-field col s6">
                                         <textarea id="textarea2" name="color2" class="materialize-textarea"></textarea>
                                         <label for="textarea2">Color 2</label>
-                                    </div>
-                                    <div class="input-field col s6">
-                                        <textarea id="textarea3" name="color3" class="materialize-textarea"></textarea>
-                                        <label for="textarea3">Color 3</label>
                                     </div>
                                 </div>
                                 <div class="row">

@@ -31,6 +31,30 @@ Route::get('/mediana', 'HomeController@mediana')->name('la recontrabuena');
 
 Route::get('/grande', 'HomeController@grande')->name('la megabuena');
 
+Route::get('/chiquitaEstilo1', 'DisenoController@chiquitaEstilo1')->name('la remegabuena');
+
 Route::get('/chiquitaEstilo2', 'DisenoController@chiquitaEstilo2')->name('la remegabuena');
 
-Route::post('/colorSave', 'ManillaController@save3Colores')->name('colorSave');
+Route::get('/chiquitaEstilo3', 'DisenoController@chiquitaEstilo3')->name('la remegabuena');
+
+Route::get('/medianaEstilo1', 'DisenoController@medianaEstilo1')->name('la remegabuena');
+
+Route::get('/medianaEstilo2', 'DisenoController@medianaEstilo2')->name('la remegabuena');
+
+Route::get('/medianaEstilo3', 'DisenoController@medianaEstilo3')->name('la remegabuena');
+
+Route::get('/grandeEstilo1', 'DisenoController@grandeEstilo1')->name('la remegabuena');
+
+Route::get('/grandeEstilo2', 'DisenoController@grandeEstilo2')->name('la remegabuena');
+
+Route::get('/grandeEstilo3', 'DisenoController@grandeEstilo3')->name('la remegabuena');
+
+Route::post('/color2Save', 'ManillaController@save2Colores')->name('color2Save');
+
+Route::post('/color3Save', 'ManillaController@save3Colores')->name('color3Save');
+
+Route::post('/color4Save', 'ManillaController@save4Colores')->name('color4Save');
+
+Route::post('/color5Save', 'ManillaController@save5Colores')->name('color5Save');
+
+Route::post('/color7Save', 'ManillaController@save7Colores')->name('color7Save');

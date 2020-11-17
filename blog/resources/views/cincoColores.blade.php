@@ -34,7 +34,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="row">
-                            <form class="col s12" method="POST" action="{{route('color3Save')}}">
+                            <form class="col s12" method="POST" action="{{route('color5Save')}}">
                                 @csrf
                                 <div class="row">
                                     <div class="input-field col s6">
@@ -45,15 +45,25 @@
                                         <textarea id="textarea2" name="color2" class="materialize-textarea"></textarea>
                                         <label for="textarea2">Color 2</label>
                                     </div>
+                                </div>
+                                <div class="row">
                                     <div class="input-field col s6">
                                         <textarea id="textarea3" name="color3" class="materialize-textarea"></textarea>
                                         <label for="textarea3">Color 3</label>
                                     </div>
+                                    <div class="input-field col s6">
+                                        <textarea id="textarea4" name="color4" class="materialize-textarea"></textarea>
+                                        <label for="textarea4">Color 4</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <textarea id="textarea5" name="color5" class="materialize-textarea"></textarea>
+                                        <label for="textarea5">Color 5</label>
+                                    </div>
                                 </div>
                                 <div class="row">
                                     <div class="input-field col s12">
-                                        <textarea id="textarea4" name="nota" class="materialize-textarea"></textarea>
-                                        <label for="textarea4">Nota</label>
+                                        <textarea id="textarea6" name="nota" class="materialize-textarea"></textarea>
+                                        <label for="textarea6">Nota</label>
                                     </div>
                                 </div>
                                 <button type="submit" class="btn btn-primary">

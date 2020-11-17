@@ -43,12 +43,12 @@ class HomeController extends Controller
 
     public function mediana(){
         session(['tamano'=>'mediana']);
-        return view('mediana',compact('manilla'));
+        return view('mediana');
     }
 
     public function grande(){
         session(['tamano'=>'grande']);
-        return view('grande',compact('manilla'));
+        return view('grande');
     }
     
 }
