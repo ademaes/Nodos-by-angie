@@ -18,7 +18,7 @@
         Portafolio
     </div>
     <div class="di">
-        <a class="waves-effect waves-light btn-large" href="tamano" >Button</a>
+        <a class="waves-effect waves-light btn-large" href="tamano" >Crea tu manilla</a>
         
     </div>
     <img src="{{ asset('img/Portfolio.png') }}" class="portfolio">

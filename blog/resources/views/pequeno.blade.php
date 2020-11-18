@@ -8,9 +8,6 @@
     
 </head>
 <body style="background-color: #F0FAFF;">
-    <p>
-        {{session('tamano')}}
-    </p>
     <div class="titulo">
     Elige el diseño de tu manilla chiquita
     </div>

@@ -7,35 +7,37 @@
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
 <head>
-    <title> Manilla </title>
-    <link rel="stylesheet" type="text/css" href="style.css">   
-    
+    <title> Home </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
+
 <body style="background-color:#F8D9FC;">
-  
+
     <div class="titulo">
-        Tu manilla fue Ordenada exitosamente
+        El dueño de la manilla es:
     </div>
+
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-body">
-                        <div class="row">
-                            Tu pedido estara listo en {{$data["fecha"]->fecha}} a las {{$data["fecha"]->hFinal}}
-                        </div>
+                        <li> Nombre: {{$data["nombre"]}}</li>
+                        <li> Correo: {{$data["email"]}}</li>
+                        <li> Usuario de Instagram: {{$data["instagram"] ?? 'No tiene'}}</li>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="col s6 offset-s6">
-    <a class="waves-effect waves-light btn-small" href="HomeAde">Volver al Home</a>
-    </div>
-   
-  
-   
-    
+    <a class="waves-effect waves-light btn-small" href="admin">Voler a los pedidos</a>
+    <a class="waves-effect waves-light btn-small" href="verManilla">Volver a la manilla</a>
+
+
+
+
 </body>
 @endsection

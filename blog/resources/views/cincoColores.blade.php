@@ -25,7 +25,7 @@
     <div class="titulo">
     </div>
     <div class="titulo">
-        Elige el diseño de tu manilla mediana
+        Elige los colores de tu manilla
     </div>
 
     <div class="container">

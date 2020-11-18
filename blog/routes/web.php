@@ -58,3 +58,9 @@ Route::post('/color4Save', 'ManillaController@save4Colores')->name('color4Save')
 Route::post('/color5Save', 'ManillaController@save5Colores')->name('color5Save');
 
 Route::post('/color7Save', 'ManillaController@save7Colores')->name('color7Save');
+
+Route::post('/verManilla', 'HomeController@verManilla')->name('verManilla');
+
+Route::post('/verCliente', 'HomeController@verCliente')->name('verCliente');
+
+Route::get('/admin', 'HomeController@admin')->name('la remegabuena');

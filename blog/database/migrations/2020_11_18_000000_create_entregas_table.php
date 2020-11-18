@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateManillasTable extends Migration
+class CreateEntregasTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,12 @@ class CreateManillasTable extends Migration
      */
     public function up()
     {
-        Schema::create('manillas', function (Blueprint $table) {
+        Schema::create('entregas', function (Blueprint $table) {
             $table->id();
-            $table->string('tamano');
-            $table->string('estilo');
-            $table->string('colores');
-            $table->bigInteger('dueno');
-            $table->text('nota')->nullable();
+            $table->string('fecha');
+            $table->string('hInicial');
+            $table->string('hFinal');
+            $table->bigInteger('idManilla')->nullable();
             $table->timestamps();
         });
     }

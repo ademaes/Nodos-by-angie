@@ -4,7 +4,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 
 class Manilla extends Model{
-    protected $fillable = ['dueno', 'tamano', 'estilo', 'colores' ];
+    protected $fillable = ['dueno', 'tamano', 'estilo', 'colores', 'nota'];
     public function getId(){
         return $this->attributes['id'];
     }
